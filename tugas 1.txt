@@ -1,0 +1,32 @@
+Tugas Algoritma dan Pemrograman
+Tugas 1
+
+Program tugas1;
+var
+ i,b,c,d: real;
+begin
+ i:=3.0;
+ b:=2.0;
+ c:=0.0;
+ i:=i+i;
+ b:=b+i;
+ c:=c*i;
+ write('Nilai i=',i,' b=',b,' c=',c)
+end.
+Nilai i= 6.00000000000000000E+000 b= 8.0000000000000000E+000  c= 0.0000000000000000E+000
+
+Atau
+Program tugas1;
+var
+ i,b,c,d: real;
+begin
+ i:=3.0;
+ b:=2.0;
+ c:=0.0;
+ i:=i+i;
+ b:=b+i;
+ c:=c*i;
+ write('Nilai i=',i:0:2,' b=',b:0:2,' c=',c:0:2);
+end.
+
+Nilai i=6.00 b=8.00 c=0.00
